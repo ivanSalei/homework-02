@@ -1,34 +1,69 @@
 @import url(./reset.css);
 
-
-.header-title {
-    color: brown;
+*{
+    color:red;
+}
+h1{
+    color:rgb(255, 187, 0);
 }
 
-.title {
-    color:green
+h2{
+    color:rgb(255, 102, 0)
 }
 
-h3{
-    color:blue
+p{
+    color:chocolate
 }
 
-.header__text{
-    color:darkmagenta
+p span{
+    color:rgb(51, 210, 30)
 }
 
-.text{
-    color:#000;
+li span{
+    color:green;
 }
 
-.info p{
-    color:darkorange
+li>a{
+    color:rgb(255, 0, 85);
 }
 
-.footer{
+.title{
+    color:aqua
+}
+
+.titlere{
+color:rgb(255, 0, 191)
+}
+
+#architecture{
+    color:rgb(14, 57, 187)
+}
+
+.header__link{
     color:blueviolet
 }
 
-#unique{
-    color:rgb(128, 0, 6)
+[class*="em"]{
+    color:blueviolet
+}
+
+
+.list .item {
+	color: rgb(35, 146, 13);
+}
+
+.info h3 {
+    color: rgb(150, 19, 41);
+}
+
+.info p{
+    color: coral;
+}
+
+.title~p {
+	color: green;
+}
+
+.borsch{
+    color:greenyellow
 }
